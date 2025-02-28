@@ -40,7 +40,7 @@ const TextInput = ({
       transition={{ duration: 0.5 }}
       className="w-full max-w-[800px] mx-auto"
     >
-      <Card className="bg-white dark:bg-gray-800 p-6 shadow-lg">
+      <Card className="bg-white dark:bg-gray-800 p-4 shadow-lg">
         <div className="space-y-4">
           <Label
             htmlFor="text-input"
@@ -54,7 +54,7 @@ const TextInput = ({
             value={text}
             onChange={handleTextChange}
             placeholder={placeholder}
-            className="w-full min-h-[80px] p-4 text-lg border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 resize-none transition-all duration-200"
+            className="w-full min-h-[60px] p-3 text-lg border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 resize-none transition-all duration-200"
             style={{
               overflow: "hidden",
             }}

@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <BackgroundEffect>
       {/* Main content */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-6">
         <div className="flex justify-end mb-4">
           <ThemeToggle />
         </div>
@@ -21,9 +21,9 @@ const Home = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+          className="text-center mb-6"
         >
-          <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+          <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-2">
             Text to Fancy Font Converter
           </h1>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -32,7 +32,7 @@ const Home = () => {
           </p>
         </motion.div>
 
-        <div className="space-y-8">
+        <div className="space-y-4">
           <TextInput
             onTextChange={setText}
             placeholder="Type something fancy..."
