@@ -8,7 +8,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import SEOContent from "./SEOContent";
 
 const Home = () => {
-  const [text, setText] = useState("Type something fancy...");
+  const [text, setText] = useState("");
 
   return (
     <BackgroundEffect>
