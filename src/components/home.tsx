@@ -5,6 +5,7 @@ import BackgroundEffect from "./FontConverter/BackgroundEffect";
 import { motion } from "framer-motion";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeToggle } from "./ThemeToggle";
+import SEOContent from "./SEOContent";
 
 const Home = () => {
   const [text, setText] = useState("Type something fancy...");
@@ -42,6 +43,7 @@ const Home = () => {
         </div>
       </div>
       <Toaster />
+      <SEOContent />
     </BackgroundEffect>
   );
 };
